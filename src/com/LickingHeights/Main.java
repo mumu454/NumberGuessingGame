@@ -18,6 +18,18 @@ public class Main {
         NumberGuessingGame();
         int counter;
         int guess = 0;
+<<<<<<< HEAD
+=======
+    }
+
+    public static void NumberGuessingGame() {
+        int secretNumber;
+        String answer;
+
+        Scanner keyboard = new Scanner(System.in);
+        int guess;
+
+>>>>>>> master
     }
 
     public static void NumberGuessingGame() {
