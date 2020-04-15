@@ -14,5 +14,18 @@ public class Main {
         System.out.println(" if you guess higher than my number, I will let you know that you guessed too high.");
         System.out.println("Lets play then, shall we?");
 
+        Scanner keyboard;
+        NumberGuessingGame();
+        int counter;
+        int guess = 0;
+    }
+
+    public static void NumberGuessingGame() {
+        int secretNumber;
+        String answer;
+
+        Scanner keyboard = new Scanner(System.in);
+        int guess;
+
     }
 }
