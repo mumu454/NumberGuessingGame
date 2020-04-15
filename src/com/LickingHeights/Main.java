@@ -18,18 +18,6 @@ public class Main {
         NumberGuessingGame();
         int counter;
         int guess = 0;
-<<<<<<< HEAD
-=======
-    }
-
-    public static void NumberGuessingGame() {
-        int secretNumber;
-        String answer;
-
-        Scanner keyboard = new Scanner(System.in);
-        int guess;
-
->>>>>>> master
     }
 
     public static void NumberGuessingGame() {
@@ -63,7 +51,18 @@ public class Main {
             } while (guess != secretNumber);
 
 
+            System.out.println("Would you like to play again?(Say yes or no)");
+            keyboard.nextLine();
+            answer = keyboard.nextLine();
+
+            if (answer.equalsIgnoreCase("yes")) {
+                System.out.println("Lets play again!");
+            } else {
+                System.out.println("Thank you for playing the Number Guessing Game");
+            }
 
 
+        } while (answer.equals("yes"));
     }
 }
+
